@@ -1,0 +1,66 @@
+{"seasonFlowers":[
+{
+    "id": 1 ,
+    "name":"Spring composition",
+    "image":"./images/flower9.svg",
+    "price":20,
+    "liked":false
+},
+{
+    "id": 2 ,
+    "name":"Summer composition",
+    "image":"./images/flower12.svg",
+    "price":25,
+    "liked":false
+},
+{
+    "id": 3 ,
+    "name":"Autumn composition",
+    "image":"./images/flower11.svg",
+    "price":30,
+    "liked":false
+}
+],
+"exclusiveFlowers": [{
+    "id": 4 ,
+    "name":"Summer field",
+    "image":"./images/flower6.svg",
+    "price":14,
+    "liked":false
+},
+{
+    "id": 5 ,
+    "name":"Minimalism",
+    "image":"./images/flower13.svg",
+    "price":18,
+    "liked":false
+},
+{
+    "id": 6 ,
+    "name":"Love story",
+    "image":"./images/flower14.svg",
+    "price":35,
+    "liked":false
+},
+{
+    "id": 7 ,
+    "name":"Inspiration",
+    "image":"./images/flower14.svg",
+    "price":20,
+    "liked":false
+},
+{
+    "id": 8 ,
+    "name":"Bride's bouquet",
+    "image":"./images/flower15.svg",
+    "price":40,
+    "liked":false
+},
+{
+    "id": 9 ,
+    "name":"Winter bouquet",
+    "image":"./images/flower16.svg",
+    "price":20,
+    "liked":false
+}]
+}

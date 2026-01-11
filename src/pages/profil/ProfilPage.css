@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.prrofil_container{
+    width: 1015px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 82px;
+}
+.profil_ul{
+    width: 255px;
+}
+
+.profil_ul li {
+    font-family: 'High Tower Text';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 37px;
+/* identical to box height */
+cursor: pointer;
+
+color: rgba(89, 56, 37, 0.5);
+margin-bottom: 55px;
+}
+.profil_cart{
+    width: 730px;
+    height: 601.5px;
+    border-left: 2px solid #593825;
+}
+.profile_img{
+    margin-left: 94.5px;
+}
+.pfofil_user{
+    width: 635px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 94.5px;
+    margin-top: 53px;
+}
+.list_of_profil{
+    width: 255px;
+}
+.list_of_profil p {
+    font-family: 'High Tower Text';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 37px;
+
+color: #593825;
+margin-bottom: 39px;
+}
+.list_of_names{
+    width: 350px;
+}
+.list_of_input{
+    width: 322px;
+    height: 36px;
+    border-bottom: 1px solid #593825;
+    margin-bottom: 39px;
+}
+.list_of_input p {
+    font-family: 'High Tower Text';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 37px;
+
+color: #593825;
+
+
+}
+.profil_ul li.active{
+    font-family: 'High Tower Text';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 37px;
+/* identical to box height */
+
+
+color: #593825;
+
+
+}

@@ -1,0 +1,332 @@
+/* Главный файл со стилями*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+}
+.main_block {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+  background-image: url("../public/images/main.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 790px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.main_container{
+  width: 374px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ margin-left: 925px;
+ margin-top: 171px;
+}
+.main_h1{
+  font-family: 'Hina Mincho';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 70px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.main_p{
+  font-family: 'High Tower Text';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+margin-top: 15px;
+margin-bottom: 130px;
+color: #FFFFFF;
+
+}
+.main_btn{
+width: 350px;
+height: 70px;
+cursor: pointer;
+background-color: transparent;
+border: 1px solid #FFFFFF;
+font-family: 'High Tower Text';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 37px;
+text-align: center;
+color: #FFFFFF;
+}
+/********** header **************/
+.header {
+  width: 100%;
+  margin-top: 28px;
+}
+.nav {
+  width: 1110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.header_ul {
+  width: 559px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_li a {
+  font-family: "High Tower Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+.header_images {
+  width: 141px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_login_block {
+  width: 160px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.header_image_login {
+  margin-left: 9px;
+}
+.header_login_text {
+  font-family: "High Tower Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 9px;
+}
+.section_1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.section1_container {
+  width: 1110px;
+  height: 729px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  border-left: 1px solid #593825;
+}
+.section1_content {
+  width: 443px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 94px;
+  margin-right: 127px;
+}
+.section1_text {
+  font-family: "High Tower Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #593825;
+}
+.learn_more_btn {
+  width: 350px;
+  height: 70px;
+  margin-top: 93px;
+  border: 1px solid #593825;
+  font-family: "High Tower Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #593825;
+  background-color: transparent;
+  cursor: pointer;
+}
+.section1_border {
+  position: absolute;
+  width: 665px;
+  left: 165px;
+  top: 1519px;
+  border-top: 1px solid #593825;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+/*************** section 2 *************/
+.section2_container {
+  width: 1110px;
+  height: 557px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #593825;
+  margin: auto;
+  padding-top: 99px;
+}
+.section2_flex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 89px;
+}
+.section2_images {
+  width: 256px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section2_h1 {
+  font-family: "High Tower Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #593825;
+  margin-bottom: 65px;
+}
+.section2_title {
+  font-family: "High Tower Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: #593825;
+  margin-top: 30px;
+}
+.section2_text {
+  font-family: "High Tower Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: #593825;
+}
+.section2_border {
+  position: absolute;
+  width: 768px;
+  height: 1px;
+  left: 507px;
+  top: 2076px;
+  border-top: 1px solid #593825;
+  transform: rotate(-180deg);
+}
+/*-------------- section3----------- */
+
+.section_3{
+  width: 100%;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section3_title{
+  font-family: 'High Tower Text';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+color: #593825;
+margin-bottom: 48px;
+}
+.section3_container{
+  width: 1110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section3_cart{
+  width: 350px;
+
+}
+.section3_flower_name{
+  font-family: 'High Tower Text';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+
+color: #593825;
+}
+.section3_flex{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.section3_price{
+  font-family: 'Hina Mincho';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+
+color: #593825;
+margin-right: 226px;
+}
+
+.section3_images{
+  width: 61px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section3_btn{
+  width: 25px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.favourite_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 120%;
+  overflow: scroll;
+  padding-left: 50px;
+  height: 601px;
+}
+.empty{
+  font-family: 'High Tower Text';
+font-style: italic;
+font-weight: 400;
+font-size: 85px;
+line-height: 52px;
+
+color: #593825;
+margin-top: 130px;
+text-align: center;
+}

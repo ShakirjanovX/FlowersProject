@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.basket__list-item {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid black;
+    padding: 10px;
+  }
+  .basket__list-item-title {
+    grid-column: 1/ 6;
+  }
+  .basket__list-item-price {
+    grid-column: 8 /9;
+  }
+  .basket__list-item-quantity {
+    text-align: center;
+    grid-column: 11 /12;
+  }
+  .basket__list-item-enc {
+    grid-column: 10 /11;
+    cursor: pointer;
+    color: #593825;
+    font-size: 20px;
+    background-color: transparent;
+
+  }
+  .basket__list_plus{
+    cursor: pointer;
+    color: #593825;
+    font-size: 20px;
+    background-color: transparent;
+  }

@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.catalogs_container{
+    width: 1110px;
+    margin: auto;
+}
+.catalogs_season_container{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-bottom: 105px;
+}
+.catalog_title{
+    font-family: 'High Tower Text';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+text-align: center;
+
+color: #593825;
+margin-top: 48px;
+margin-bottom: 10px;
+
+}
+.catalogs_exclusive_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.title_h1{
+    margin-bottom: 51px;
+}

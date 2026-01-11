@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header_component{
+    width: 100%;
+    background-color: #9EA0A2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 89px;
+}
+.nav_header{
+    width:1110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_ul{
+    width: 564px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_li{
+    font-family: 'High Tower Text';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.header_images1{
+    width: 119px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.basket_btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
